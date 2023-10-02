@@ -1,6 +1,7 @@
 import { InputJsonValue } from "../../types";
 
 export type UserUpdateInput = {
+  cellphone?: number | null;
   firstName?: string | null;
   lastName?: string | null;
   password?: string;
